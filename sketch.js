@@ -29,8 +29,11 @@ function draw() {
   background(0);
 
   hr = hour();
+  hr_str = String("00" + hr).slice(-2);
   mn = minute();
+  mn_str = String("00" + mn).slice(-2);
   sc = second();
+  sc_str = String("00" + sc).slice(-2);
 
   push()
   textAlign(LEFT, TOP);
@@ -39,7 +42,7 @@ function draw() {
   text("The time is...", margin_left * 0.9, 50);
   textSize(18);
   fill(50);
-  text(hr + ":" + mn + ":" + sc, margin_left * 1.08, 125);
+  text(hr_str + ":" + mn_str + ":" + sc_str, margin_left * 1.08, 125);
   pop()
 
   // Grid graphs
