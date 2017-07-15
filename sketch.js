@@ -6,6 +6,8 @@ function setup() {
 
   lbl_flag = false;
   spacing = 0;
+
+  frameRate(4);
 }
 
 //--- Main drawing function
