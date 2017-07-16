@@ -53,7 +53,7 @@ function draw() {
   drawGridGraphNo(sc, no_lbl = lbl_flag);
 }
 
-function mouseClicked() {
+function mousePressed() {
   lbl_flag = !lbl_flag;
 }
 
