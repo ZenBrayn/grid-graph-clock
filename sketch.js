@@ -57,6 +57,11 @@ function mouseClicked() {
   lbl_flag = !lbl_flag;
 }
 
+function touchStarted() {
+  lbl_flag = !lbl_flag;
+}
+
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
+
